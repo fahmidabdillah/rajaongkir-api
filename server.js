@@ -16,3 +16,6 @@ app.use(cors());
 
 const landing_page = require("./routes/landing_page");
 app.use(landing_page);
+
+const midtrans = require("./routes/midtrans");
+app.use(midtrans);
